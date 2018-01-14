@@ -3,7 +3,7 @@ import { Headers } from '@angular/http';
 
 import { Validators } from '@angular/forms';
 
-const isProduction: boolean = false;
+const isProduction: boolean = true;
 
 @Injectable()
 export class HelperService {
