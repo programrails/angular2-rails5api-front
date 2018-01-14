@@ -47,8 +47,8 @@ export class QuestionsFormComponent implements OnInit {
 
   onSubmit(value: string) {
 
-    // let question = new Question(this.helper.from_form_fields(value)); // проверка формата полей входящих данных
-    let question = new Question(value); // проверка формата полей входящих данных
+    // let question = new Question(this.helper.from_form_fields(value)); // checking the format of fields for incoming data
+    let question = new Question(value); // checking the format of fields for incoming data
 
     this.onQuestionSubmitted.emit(question);
   }

@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // title = 'app works!';
-  title = "Демо-программа: взаимодействие Angular 2 и Ruby on Rails 5 API"
+  title = "Basic DEMO Rails 5 API + Angular2 interaction Frontend part (ng-book2 based)"
 }

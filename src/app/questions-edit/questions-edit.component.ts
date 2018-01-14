@@ -23,7 +23,7 @@ export class QuestionEditComponent implements OnInit, OnDestroy {
   loading: boolean;
   private sub: any;
   question: Question;
-  form_submit_button_name: string = "Обновить вопрос";
+  form_submit_button_name: string = "Refresh question";
 
   renderResponse(res: any): void {
 

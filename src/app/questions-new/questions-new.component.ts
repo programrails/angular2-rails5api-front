@@ -19,7 +19,7 @@ import { Router } from '@angular/router';
 export class QuestionNewComponent implements OnInit {
   loading: boolean;
   question: Question = new Question({});
-  form_submit_button_name: string = "Создать вопрос";
+  form_submit_button_name: string = "Create question";
 
   redirectToShow(id: string): void {
 

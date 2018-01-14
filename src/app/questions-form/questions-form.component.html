@@ -1,10 +1,10 @@
 <form [formGroup]="question_form"
       (ngSubmit)="onSubmit(question_form.value)">
 
-  <label for="titleNameInput">Заголовок вопроса:</label>
+  <label for="titleNameInput">Question title:</label>
   <input type="text"
          id="titleNameInput"
-         placeholder="Вопрос"
+         placeholder="Question"
          [formControl]="question_form.get('title')" 
          [ngModel]="question.title"
          >

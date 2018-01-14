@@ -3,12 +3,12 @@
 <ng-container *ngIf="question && question?.id">
 
 <div>
-<div>Номер: {{ question.id }}</div>
-<div>Заголовок: {{ question.title }}</div>
+<div>Number: {{ question.id }}</div>
+<div>Title: {{ question.title }}</div>
 </div>
 
 <p></p>
-<a [routerLink]="['/api/questions', question.id, 'edit' ]">Редактировать</a>
+<a [routerLink]="['/api/questions', question.id, 'edit' ]">Edit</a>
 
 </ng-container>
 
