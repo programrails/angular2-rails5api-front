@@ -8,7 +8,7 @@ const isProduction: boolean = false;
 @Injectable()
 export class HelperService {
   static BASE_URL: string = isProduction ? 
-  'https://rails-api-only-demo.herokuapp.com/questions' :
+  'https://angular2-rails5api-back.herokuapp.com/api/questions' :
   'http://localhost:3000/api/questions';
 
   static HEADERS: any = new Headers({ 'Content-Type': 'application/json;charset=utf-8' });  
